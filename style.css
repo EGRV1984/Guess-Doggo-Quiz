@@ -37,6 +37,6 @@ img {
   padding: 0 0;
 }
 button {
-  width: 85%;
-  color: antiquewhite;
+  color: black;
+  background-color: antiquewhite;
 }
