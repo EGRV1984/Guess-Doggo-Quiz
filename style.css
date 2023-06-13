@@ -1,0 +1,41 @@
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+body {
+  margin: 5em auto;
+  padding: auto;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(35, 35, 35);
+  color: antiquewhite;
+}
+header {
+  width: 85%;
+  margin: 1em auto;
+}
+main {
+  max-width: 85%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+img {
+  max-width: 85%;
+}
+.correct {
+  background-color: rgb(59, 110, 60);
+}
+.incorrect {
+  background-color: rgb(74, 24, 47);
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 10em;
+  padding: 0 0;
+}
+button {
+  width: 100%;
+}
