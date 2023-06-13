@@ -2,7 +2,7 @@
   font-family: "Titillium Web", sans-serif;
 }
 body {
-  margin: 5em auto;
+  margin: 0 auto;
   padding: auto;
   font-family: sans-serif;
   text-align: center;
@@ -11,7 +11,7 @@ body {
 }
 header {
   width: 85%;
-  margin: 1em auto;
+  margin: 0 auto;
 }
 main {
   max-width: 85%;
@@ -37,5 +37,5 @@ img {
   padding: 0 0;
 }
 button {
-  width: 100%;
+  width: 85%;
 }
