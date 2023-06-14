@@ -230,9 +230,9 @@
             event.target.classList.add("correct");
           } else {
             event.target.classList.add("incorrect");
-            // document
-            //   .querySelector(`button[value="${correctAnswer}"]`)
-            //   .classList.add("correct");
+            document
+              .querySelector(`button[value="${correctAnswer}"]`)
+              .classList.add("correct");
           }
         }
       }
@@ -242,7 +242,6 @@
           "Fetching doggo... wait a bit";
         const getApiAwait = await getUrlFromApi(RANDOM_IMG_ENDPOINT);
         const correctBreed = getBreedFromUrl(getApiAwait);
-        console.log(correctBreed);
         const breedChoices = makeChoicesArray(correctBreed, 4, BREEDS);
         return [getApiAwait, correctBreed, breedChoices];
       }
